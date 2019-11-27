@@ -1,0 +1,181 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body{
+  background-color: rgba(0,230,110,0.2);
+}
+
+nav#menu{
+  margin-top: 1%;
+  background-color: #6f9;
+}
+
+nav#menu ul {
+  align-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+}
+nav ul li{
+  background-color: rgba(100,100,255,0.4);
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1.5% 0 1.5% 0;
+  text-align: center;
+  border: 1px solid #058;
+}
+
+
+nav ul li:hover{
+  background-color: rgba(200, 200, 255, 0.5);
+}
+
+div.div-registro{
+  padding: 1%;
+  margin: 2% 8% 2% 8%;
+  width: 80%;
+  min-width: 450px;
+  min-height: 360px;
+  background-color: rgba(250, 250, 30, 0.5);
+  border: solid 2px rgba(155,100,0,0.7);
+  border-radius: 20px;
+}
+
+div.div-registro p{
+  margin-bottom: 2%;
+  color: #001;
+  font-family: cursive;
+}
+
+div.div-registro h3{
+  font-size: 1.6rem;
+  font-style: italic;
+  text-align: center;
+}
+
+div.div-registro img{
+  float: right;
+  width: 300px;
+  height: auto;
+  margin: 3%;
+
+  border: 2px solid #666;
+}
+
+
+h1{
+font-family: Arial;
+font-size: 60pt;
+color: #33f;
+text-shadow : 2px 2px 2px black;
+text-align : center;
+}
+
+h2{
+  font-family: Arial;
+  font-size: 30pt;
+  color: #33f;
+  text-shadow : 1px 1px 1px black;
+  text-align : center;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+
+p{
+  font-family: Arial;
+  font-size: 1.2rem;
+  color: black;
+}
+
+p.lik{
+  font-family: Arial;
+  font-size: 30pt;
+  color: purple;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+p.orange{
+  color: #f60;
+}
+
+p.lista{
+  font-family: Arial;
+  font-size: 23pt;
+  text-align: center;
+}
+
+form#form-busca{
+  padding: 0.5% 0.5% 0.5% 0.5%;
+  width: 99%;
+  background-color: #bf7;
+
+  border-bottom: 2px solid rgba(100,205,100,0.3);
+  border-top: 2px solid rgba(100,205,100,0.3);
+}
+
+form#form-busca > *{
+  font-size: 1.2rem;
+}
+
+form#form-busca input{
+  width: 80%;
+}
+
+form#form-busca button{
+  min-width: 50px;
+  width: 10%;
+}
+
+form.form-standard{
+  min-width: 400px;
+  min-height: 400px;
+  width: 76%;
+  margin: 2% 10% 3% 10%;
+  padding: 2%;
+
+  background-color: #eef;
+  border: 2px solid lightblue;
+  border-radius: 30px;
+  display: inline-grid;
+  grid-template-columns: 40% 60%;
+}
+
+form.form-standard * {
+  margin-top: 1%;
+  margin-bottom: 0.5%;
+  font-size: 1.2rem;
+}
+
+form.form-standard label{
+  font-weight: bolder;
+}
+
+form.form-standard input, form.form-standard select{
+  max-height: 30px;
+
+}
+
+form.form-standard button{
+  width: 90%;
+}
+
+
+footer{
+  border-top: 4px solid rgba(30,30,80,0.3);
+  padding: 2%;
+  background-color: #259;
+}
+
+footer p{
+  text-align: center;
+  font-family: cursive;
+  font-size: 1.3rem;
+  color: #fff;
+  text-shadow: 2px 2px 2px black;
+}
